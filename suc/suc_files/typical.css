@@ -1,0 +1,28 @@
+@charset 'utf-8';
+body{font-family:"hiragino sans gb","Microsoft Yahei";}
+.main{background:#f7f7f7;}
+.banner{margin:0 auto;background: url("../image/typical_banner_bg.png") repeat-x;}
+.banner .banner-img{width:1000px;margin:0px auto;}
+.banner img.banner-bg{width:1000px;margin: 0 auto;display: block;}
+.banner .banner-btn img{width:150px;margin-top:-100px;}
+.typical{width:900px;margin:0 auto;overflow:hidden;}
+.typical .typical-item{width:280px;height:450px;margin:10px;float:left;background:#fff;}
+.typical .typical-item .typical-type{color:#8966F5;}
+.typical .typical-item .typical-type span{display:block;width:70px;height:30px;line-height:30px;padding-left:35px;color:#60C1E1;}
+.typical .typical-item .typical-type span.game{padding-left:40px;background:url("../image/typical_icon.png") -80px 0 no-repeat;}
+.typical .typical-item .typical-type span.mobile{background:url("../image/typical_icon.png") -156px -1px  no-repeat;}
+.typical .typical-item .typical-type span.education{width:80px;padding-left:50px;background:url("../image/typical_icon.png") -11px -50px;no-repeat;}
+.typical .typical-item .typical-type span.finance{background:url("../image/typical_icon.png") -86px -45px no-repeat;}
+.typical .typical-item .typical-type span.sns{background:url("../image/typical_icon.png") -10px 0 no-repeat;}
+.typical .typical-item .typical-type span.other{width:95px;background:url("../image/typical_icon.png") -153px -44px no-repeat;}
+.typical .typical-item .typical-title{text-align:center;height:170px;}
+.typical .typical-item .typical-title img{width:100px;height:100px;border-radius:50%;}
+.typical .typical-item .typical-title h4{padding:15px 0 5px 0;}
+.typical .typical-item .typical-content{height:220px;font-size:12px;margin:0 10px;padding:10px 0;border-top:1px dashed #ccc;}
+.typical .typical-item .typical-content p{line-height:20px;}
+.typical .typical-item .typical-more{overflow:hidden;}
+.typical .typical-item .typical-more a{float:right;margin-right:10px;}
+.typical .typical-item .typical-more a img{width:25px;}
+.more{width:900px;margin:0 auto;overflow:hidden;}
+.more a{float:right;margin:5px 0 35px 0;color:#34B6E1;text-decoration:none;}
+

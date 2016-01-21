@@ -1,0 +1,72 @@
+.banner {width:100%;height:100%;z-index:9;left:0;overflow:hidden;background:url('../image/index/sae_banner_bg.png')repeat-x;webkit-user-select:none;}
+.banner .banner-img{width:1000px;height:100%;margin:0 auto;background:url('../image/index/sae_banner.png')}
+.banner-text p.banner-title{font-size:36px;letter-spacing:6px;padding:23px 0;}
+.banner-text p.banner-info{font-size:16px;letter-spacing:2px;line-height:30px;}
+.banner-text p.banner-btn{padding-top:30px;color:#fff;}
+.banner-img img{width:1000px;}
+p .btn-info{padding:7px 30px;font-size:16px;border-radius: 25px;background-color:#29BAEF;}
+
+
+.service-wrap .service-title{font-size:20px;}
+.service-wrap .service-feature,.intro-wrap,.service-list{width:1000px;margin:0 auto;overflow:hidden;}
+.service-wrap .service-feature{height:260px;}
+.service-wrap .service-feature ul li{position:relative;float:left;width:250px;padding:10px;text-align:center;cursor:pointer;}
+.service-wrap .service-feature ul li .f-detail{position:absolute;top:22px;left:-9999px;width:250px;height:170px;border:1px solid #b7f6ff;background:#fff;z-index:30;}
+.service-wrap .service-feature ul li .f-detail-last{width:240px;}
+.service-wrap .service-feature ul li .f-detail p{padding:30px 20px;text-align:left;}
+.service-wrap .service-feature ul li .f-detail a{text-decoration:none;}
+.service-wrap .service-feature ul li:hover .f-detail{left:auto;}
+
+.service-wrap .service-intro{background:#fff;height:260px;}
+.service-wrap .service-intro ul.intro-ul{overflow:hidden;}
+.service-wrap .service-intro ul li.intro-li{float:left;width:328px;height:185px;margin-right:8px;padding:10px 0 10px 15px;border:1px solid #cceffa;}
+.service-wrap .service-intro ul li.intro-li-last{margin-right:0;}
+.service-wrap .service-intro ul li.intro-li img{float:left;padding-left:60px;}
+.service-wrap .service-intro ul li.intro-li p.intro-title{padding-left:155px;height:70px;line-height:70px;font-size:18px;}
+.service-wrap .service-intro ul.intro-item li{float:left;width:77px;line-height:33px;}
+.service-wrap .service-intro ul.intro-item li.intro-li-web{width:90px;}
+.service-wrap .service-intro ul.intro-item li.intro-li-jvm{width:135px;}
+.service-wrap .service-intro ul.intro-item li a{color:#686868;text-decoration:none;}
+.service-wrap .service-intro ul.intro-item li a:hover{color:#8bd1ee;}
+
+
+.service-wrap .service-list .service-table {border:1px solid #b7f6ff;}
+.service-wrap .service-list .service-table tr th,td{text-align:center;}
+.service-wrap .service-list .service-table tr th{border-bottom:none;border-left:1px solid #b7f6ff;border-bottom:1px solid #b7f6ff;background:#eefcfe;}
+.service-wrap .service-list .service-table tr th p{font-size:16px;font-weight:normal;line-height:25px;}
+.service-wrap .service-list .service-table tr.info-tr td{padding:14px;text-align:left;}
+.service-wrap .service-list .service-table tr td{height:35px;line-height:35px;padding:0;border-top:none;border-left:1px solid #b7f6ff;}
+.service-wrap .service-list .service-table tr td a{display:inline-block;width:165px;color:#686868;text-decoration:none;}
+.service-wrap .service-list .service-table tr td a:hover{background:#eefcfe;}
+.service-wrap .service-list .service-table tr td a.service-more{color:#8bd1ee;}
+.service-wrap .service-list .service-table tr td a.service-more:hover{background:#fff;}
+.service-wrap .service-list .top-tab ul.tab-ul{overflow:hidden;border:1px solid #b7f6ff;background:#eefcfe;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li{float:left;width:166px;line-height:50px;text-align:center;border-left:1px solid #b7f6ff;}
+.service-wrap .service-list .top-tab ul.tab-ul li.active{background:#67c6ea;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-first{margin-left:-1px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-last{width:168px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li a.li-item{display:inline-block;width:166px;font-size:16px;color:#686868;text-decoration:none;}
+.service-wrap .service-list .top-tab ul.tab-ul li.active a.li-item{color:#fff;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.tab-dropdown-list{position:absolute;top:52px;left:-9999px;width:166px;margin:0;border:1px solid #b7f6ff;background:#fff;z-index:30}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-last ul.tab-dropdown-list{width:168px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.tab-dropdown-list li{height:40px;line-height:40px;text-align:left;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.tab-dropdown-list li:hover{background:#eefcfe;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.tab-dropdown-list li a{display:inline-block;width:166px;color:#686868;text-decoration:none;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.db-ul li a{padding: 0 0 0 42px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.sc-ul li a{padding: 0 0 0 24px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.app-ul li a{padding: 0 0 0 34px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.ns-ul li a{padding: 0 0 0 26px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.com-ul li a{padding: 0 0 0 50px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li ul.third-ul li a{padding: 0 0 0 42px;}
+.service-wrap .service-list .top-tab ul.tab-ul li.tab-li:hover ul.tab-dropdown-list{left:auto;}
+.service-wrap .service-list .tab-fixed{position:fixed;top:0;z-index:1000;}
+
+.service-wrap .service-list .service-item .inner-item {height:300px;padding-top:10px;border:1px solid #b7f6ff;}
+.service-wrap .service-list .service-item .borderT_No {border-top:none;}
+.service-wrap .service-list .service-item .inner-item .inner-left{float:left;width:410px;text-align:center;}
+.service-wrap .service-list .service-item .inner-item .inner-left .left-title{margin-bottom:5px;font-size:16px;color:#ffaf3f;}
+.service-wrap .service-list .service-item .inner-item .inner-right{float:left;padding-left:120px;width:550px;}
+.service-wrap .service-list .service-item .inner-item .inner-right .right-title{margin:5px 0;font-size:16px;}
+.service-wrap .service-list .service-item .inner-item .inner-right ul{padding-left:20px;}
+.service-wrap .service-list .service-item .inner-item .inner-right ul li{line-height:25px;list-style-type:disc;}
+.service-wrap .service-list .service-item .inner-item a.more-doc{float:right;margin-right:20px;}

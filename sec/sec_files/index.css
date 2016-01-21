@@ -1,0 +1,43 @@
+
+.red{ color:#f50f15;}
+.main {background: #f7f7f7;}
+
+.banner{width:100%;height:270px;left:0;z-index:9;background:url('/static/sec/image/sec_banner_bg.png') repeat-x;}
+/*.banner .banner-ul{height:10px;position:absolute;left:0;right:0;bottom:20px;text-align:center;}*/
+.banner .banner-img{width:1000px;height:270px;margin:0 auto;background: url('/static/sec/image/sec_banner.png') no-repeat;}
+.banner-text p.banner-title{font-size:36px;letter-spacing:6px;padding:23px 0;}
+.banner-text p.banner-title .title-tip{font-size:16px;letter-spacing:1px;}
+.banner-text p.banner-info{font-size:16px;letter-spacing:2px;line-height:30px;}
+.banner-text p.banner-btn{padding-top:60px;color:#fff;}
+.banner  .banner-btn a{ display:inline-block;height:38px;line-height:38px;text-align:center;color:#fff;text-decoration:none;background:#29BAEF;border-radius:25px;font-size:16px;padding:0px 30px; }
+.banner  .banner-btn a.button-gray{background:#eee;color:#999;cursor:not-allowed;}
+
+.advantage{background:#fff;}
+.advantage-inner{width:1000px;margin:0 auto;padding:30px 0;overflow:hidden;}
+.advantage-inner h3{padding-left:10px;border-left:5px solid #0A8FD5;margin-bottom:30px;}
+.advantage-inner ul li.left{float:left;width:300px;position:relative;}
+.advantage-inner ul li.center{float:left;width:400px;text-align:center;position:relative}
+.advantage-inner ul li.right{float:left;width:300px;text-align:right;}
+.advantage-inner p.content-left{font-size:16px;text-align:left;padding-top:25px;width:156px;}
+.advantage-inner p.content-center{font-size:16px;text-align:left;padding-top:25px;width:156px;margin-left:120px;}
+.advantage-inner p.content-right{font-size:16px;text-align:left;float:right;padding-top:25px;width:156px;}
+.shuxian{width:1px;height:60px;background-color:#cfcfdf;position:absolute;right:0;top:50px;}
+
+.function{width:1000px;margin:0 auto;padding-top:20px;overflow:hidden;}
+.function h3{padding-left:10px;border-left:5px solid #0A8FD5;}
+
+.feature{}
+.feature .feature-item{height:300px;padding:30px 0;}
+.feature .item2,.item4{background-color:#fff;}
+.feature-inner{width:1000px;margin:0 auto;overflow:hidden;}
+.feature-inner .feature-img,.feature-inner .interface-img,.feature-content{float:left;}
+.feature-inner .feature-img,.feature-inner .interface-img{width:500px;text-align:center;}
+.feature-inner .feature-img img{width:280px;}
+.feature-inner .interface-img img{width:175px;}
+.feature-inner .feature-content{width:500px;}
+.feature-inner .feature-content h3{padding-left:20px;}
+.feature-inner .feature-content ul{overflow:hidden;width:450px;}
+.feature-inner .feature-content ul.feature-ul{padding:20px;}
+.feature-inner .feature-content ul.feature-ul li{list-style-type:disc;line-height:25px;padding:5px 0;}
+.feature-inner .feature-content ul li ul{padding-left:20px;}
+/*.new-group   .form-control{width:50%; }*/
